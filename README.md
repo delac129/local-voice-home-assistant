@@ -1,2 +1,2 @@
 # local-voice-home-assistant
-Fully local, voice-controlled home automation assistant — fine-tuned GPT-2 + Flask + React, no cloud.
+A fully local, voice-controlled home automation assistant. A fine-tuned GPT-2 model maps natural-language commands — like "good night" or "it's too cold" — to device actions (lights, locks, temperature). The model is served through a Flask gateway, with a React frontend using the Web Speech API for voice input. Everything runs on-device, with no cloud dependency, keeping commands and data inside the home.
